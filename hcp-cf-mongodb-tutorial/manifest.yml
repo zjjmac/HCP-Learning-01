@@ -1,8 +1,8 @@
 ---
 applications:
-- name: hcp-cf-mongodb-tutorial
+- name: mac-trial-hcp-cf-mongodb
   memory: 512M
-  host: hcp-cf-mongodb-tutorial
+  host: mac-trial-hcp-cf-mongodb
   path: target/hcp-cf-mongodb-tutorial-1.0-SNAPSHOT.jar
   services:
   - mongo-service
